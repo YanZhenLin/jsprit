@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problem xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3schools.com vrp_xml_schema.xsd">
+  <services>
+    <service id="0" type="service">
+      <locationId>0</locationId>
+      <coord x="38.9656" y="77.4152"/>
+      <capacity-dimensions>
+        <dimension index="0">10</dimension>
+      </capacity-dimensions>
+      <duration>30.0</duration>
+      <timeWindows>
+        <timeWindow>
+          <start>30.0</start>
+          <end>570.0</end>
+        </timeWindow>
+      </timeWindows>
+    </service>
+    <service id="1" type="service">
+      <locationId>1</locationId>
+      <coord x="38.9646" y="77.4155"/>
+      <capacity-dimensions>
+        <dimension index="0">10</dimension>
+      </capacity-dimensions>
+      <duration>30.0</duration>
+      <timeWindows>
+        <timeWindow>
+          <start>330.0</start>
+          <end>420.0</end>
+        </timeWindow>
+      </timeWindows>
+    </service>
+    <service id="2" type="service">
+      <locationId>2</locationId>
+      <coord x="38.9656" y="77.4155"/>
+      <capacity-dimensions>
+        <dimension index="0">10</dimension>
+      </capacity-dimensions>
+      <duration>30.0</duration>
+      <timeWindows>
+        <timeWindow>
+          <start>360.0</start>
+          <end>600.0</end>
+        </timeWindow>
+      </timeWindows>
+    </service>
+    <service id="3" type="service">
+      <locationId>3</locationId>
+      <coord x="38.9667" y="77.4155"/>
+      <capacity-dimensions>
+        <dimension index="0">10</dimension>
+      </capacity-dimensions>
+      <duration>30.0</duration>
+      <timeWindows>
+        <timeWindow>
+          <start>0.0</start>
+          <end>570.0</end>
+        </timeWindow>
+      </timeWindows>
+    </service>
+  </services>
+</problem>
